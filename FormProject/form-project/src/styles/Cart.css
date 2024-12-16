@@ -1,0 +1,146 @@
+.cart-page {
+  max-width: 800px;
+  margin-top: 100px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #d6caca;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-page h2 {
+  font-size: 2rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.cart-table-container {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+.cart-page p {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #888;
+  margin-top: 20px;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-table th,
+.cart-table td {
+  text-align: left;
+  padding: 10px;
+}
+
+.cart-item {
+  height: 150px;
+  border: 1px solid #333;
+}
+
+.product-details {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 35px;
+}
+
+.cart-item-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.quantity {
+  padding: 10px;
+}
+
+.quantity-container button {
+  background-color: #dddcdc;
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.quantity-container button:hover {
+  background-color: #b7b7b7;
+}
+
+.remove-button {
+  background-color: transparent;
+  border: none;
+  color: #ff4d4d;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.remove-button:hover {
+  color: #d90000;
+}
+
+.cart-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #333;
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  padding: 10px 0;
+}
+
+.cart-footer h3 {
+  margin-right: 10px;
+}
+
+.empty-button {
+  border-radius: 8px;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.empty-button:hover {
+  border: 0.8px solid black;
+}
+
+.checkout {
+  text-align: right;
+}
+
+.checkout-button {
+  background-color: rgb(61, 37, 37);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-button:hover {
+  background-color: rgb(88, 61, 61);
+  color: #ffffff;
+}
